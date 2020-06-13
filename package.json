@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.core.config.js -p && webpack --config webpack.umd.config.js -p",
+    "dev:build":"webpack --config webpack.core.config.js -d",
     "build:es5": "babel src --out-dir es5"
   },
   "repository": {

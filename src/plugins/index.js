@@ -4,6 +4,7 @@ import formPlugin from './form'
 import alignmentPlugin from './alignment'
 import hyperlinkPlugin from './hyperlink'
 import autoWidthPlugin from './autoWidth'
+import borderPlugin from './border'
 
 export default {
   fontPlugin,
@@ -11,5 +12,6 @@ export default {
   formPlugin,
   alignmentPlugin,
   hyperlinkPlugin,
-  autoWidthPlugin
+  autoWidthPlugin,
+  borderPlugin
 }

@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = {  
   entry: './src/index.js',
   output: {
     filename: './dist/table2excel.core.js',
@@ -18,7 +18,7 @@ module.exports = {
     ]
   },
   externals: {
-    'exceljs/dist/es5/exceljs.browser': 'ExcelJS'
+    'exceljs/dist/es5/exceljs.browser': 'exceljs'
   },
   node: {
     fs: 'empty'
